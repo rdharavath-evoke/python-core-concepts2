@@ -72,27 +72,33 @@ else:
 
 # python program to find if a sentence is Palindrome
 # To check sentence is palindrome or not 
+print()
 
-def sentencePalindrome(s):
-    l=0
-    h=len(s)-1
-    s=s.lower()
-    while(l<=h):
-        if(not(s[l]>='a' and s[l]<='z')):
-            l+=1
-        elif(not(s[h]>='a' and s[h]<='z')):
-            h-=1
-        elif(s[l]==s[h]):
-            l+=l
-            h-=1
+def palindrome(string):
+    first=0
+    last=len(string)-1
+    status=1
+    while(last>=first):
+        if(string[first]==string[last]):
+            first=first+1
+            last=last-1
         else:
-            return False
-    return True
-s="too hot  to hoot."
-if(sentencePalindrome(s)):
-    print("Sentence is palindrome")
+            status=0
+        return status
+string=input("enter the string : ")
+status=palindrome(string)
+if status==1 :
+    print("The given string is palindrome")
 else:
-    print("Sentence is not a palindrome")
+    print("The given string is not palindrome")
+
+# o/p : 
+'''
+enter the string : radar
+The given string is palindrome
+'''
+
+
 
 # scope and lifetime of variables
 
