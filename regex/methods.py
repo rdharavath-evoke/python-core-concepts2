@@ -3,7 +3,7 @@ import re
 with open(r"D:\Python_core\python-core-concepts2\regex\textdata.txt",'r') as f:
     contents=f.read()
 
-    for match in re.compile(r'\d\d\d.\d\d\d.\d\d\d\d').findall(contents):
+    for match in re.compile(r'\d{3}.\d{3}.\d{4}').findall(contents):
         print(match)
     print()
     for match in re.compile(r'\d\d\d[-,$*]\d\d\d[-*,$]\d\d\d\d').finditer(contents):
