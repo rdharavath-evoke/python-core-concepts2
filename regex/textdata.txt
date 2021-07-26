@@ -1,0 +1,37 @@
+Sachin Tendulkar
+615-555-7438
+173 Main St., Springfield RI 55924
+SachinTendulkar@bogusemail.com
+
+Charles Harris
+800,484,3849
+838 High St., Atlantis VA 34075
+charlesharris@bogusemail345.edu
+
+Virat Kohli
+700*323*2355
+355 1st St., Karnataka AK 384889
+viratkohli.18@batting.edu
+
+Rohit Sharma
+600-838-4948
+383 3rd St., Mombai DK 84844
+rohitsharma1977@bogusmail.com
+
+Ms Dhoni
+744$384$7483
+984 4th St., Ranchi MD 94884
+Msdhoni.7@cricket.edu
+
+Mr. Sachin
+Mr Smith
+Ms Divya
+Mrs. Robinson
+Mr. T
+
+url="""
+https://www.google.com
+http://python.com
+https://youtube.com
+http://www.nasa.gov
+"""
